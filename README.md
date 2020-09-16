@@ -1,6 +1,27 @@
+React Actors
 ## Description
 
+Duration: 4 hours cumulative
 
+This app is an exploration of the topics covered today during class.  
+
+In building this app, I dove into using react and familiarized myself with the requirements of creating and running a react app.
+
+
+## Prerequisites
+To run this app, you will need:
+
+Node.js
+
+## Install
+To run this application:
+
+
+Run npm install from the project root directory
+Run npm start to run the node server
+
+## Usage
+Write your first and last name as well as your best impersonation.  Your input should appear in a <p> tag below the inputs as soon as all 3 input fields contain data.  
 
 
 ## Requirements
