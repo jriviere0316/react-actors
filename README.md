@@ -1,5 +1,9 @@
 ## Description
-Requirements
+
+
+
+
+## Requirements
 Your react application should have five components.
 
 App.js
@@ -9,16 +13,31 @@ Contact.js
 Footer.js
 
 Header.js
-Should contain an h1 that says React Actors
+[x] Should contain an h1 that says React Actors
 
 About.js
-Should contain an h2 that says About and a paragraph describing the organization.
+[x] Should contain an h2 that says About and a paragraph describing the organization.
 
 Contact.js
-Should contain an h2 that says Contact, a paragraph with the phone number, and a paragraph with the email.
+[x] Should contain an h2 that says Contact, a paragraph with the phone number, and a paragraph with the email.
 
 Footer.js
-Should contain a copyright © React Actors (don't worry about the symbol if you can't get it working, but you should be able to copy and paste it).
+[x] Should contain a copyright © React Actors (don't worry about the symbol if you can't get it working, but you should be able to copy and paste it).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Available Scripts
 
