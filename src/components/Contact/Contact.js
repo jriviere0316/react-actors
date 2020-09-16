@@ -5,14 +5,8 @@ const initialState = {
     bestImpression: ''
 }
 
-
 class Contact extends Component {
-
     state = initialState
-
-    //firstLastImpression = (event) => {
-      //  return `${firstName} ${lastName} ${bestImpression}`;
-      //}
 
     onFirstNameChange = (event) => {
         console.log('event.target', event.target);
@@ -38,8 +32,7 @@ class Contact extends Component {
         this.setState({
             bestImpression: event.target.value
         });
-      }
-        
+      }   
     onClickMeClick = () => {
         
         alert(`Thanks for joining us ${this.state.firstName}`);
@@ -48,9 +41,6 @@ class Contact extends Component {
 
     }
     render() {
-
-        
-
         return (
             <div>
                 <h2>Contact</h2>
@@ -60,7 +50,7 @@ class Contact extends Component {
                 <button onClick={this.onClickMeClick}>Join Us!</button> 
                 
                 {
-                this.state.firstName && this.state.firstName && this.state.bestImpression && 
+                this.state.firstName && this.state.lastName && this.state.bestImpression && 
                 <p>{this.state.firstName} {this.state.lastName}'s best impression is {this.state.bestImpression}</p>
                 }
 

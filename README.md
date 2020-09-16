@@ -25,7 +25,13 @@ Footer.js
 [x] Should contain a copyright © React Actors (don't worry about the symbol if you can't get it working, but you should be able to copy and paste it).
 
 
+Stretch Goals
+We need to let new people join the react actors. Watch this clip to see what we would like from the form. (This form will not actually add anything to a list, it's a proof of concept that simply alerts the result.)
 
+[x] A sentence should appear below the form that says who the person is and their best impression.
+[x]This sentence should display only if all three fields have values. (Research conditional rendering.)
+[x]An alert should say thank you and then the first name
+The form should clear after click
 
 
 
