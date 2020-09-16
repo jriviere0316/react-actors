@@ -3,13 +3,9 @@ class Footer extends Component {
     render() {
         return (
             <div>
-                <h3>Footer</h3>
-                
+                <h3>© React Actors</h3>
             </div>
         )
     }
 }
-
-
-
 export default Footer;
